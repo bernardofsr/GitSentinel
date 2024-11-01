@@ -16,7 +16,7 @@ GitSentinel is a Python-based tool for scanning multiple users GitHub repositori
 
 - **Python 3.x**
 - **Gitleaks**: Ensure that [Gitleaks](https://github.com/gitleaks/gitleaks) is installed and accessible in your system’s PATH.
-- **GitHub Token**: A GitHub token with access to the repositories you intend to scan. Replace `GITHUB_TOKEN` in the script with your token.
+- **GitHub Token**: A GitHub token with access to the repositories you intend to scan. Replace `GITHUB_TOKEN` in the script with your token. Get yours here [GitHub Tokens](https://github.com/settings/tokens)
 
 ## Installation
 
