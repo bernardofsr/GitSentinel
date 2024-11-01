@@ -1,5 +1,5 @@
 
-# GitSentinel
+![GitSentinel](logo.png)
 
 GitSentinel is a Python-based tool for scanning GitHub repositories for sensitive information using [Gitleaks](https://github.com/gitleaks/gitleaks). This tool automates cloning and scanning multiple repositories with configurable wait times, leveraging multithreading to process several repositories concurrently.
 
@@ -64,6 +64,7 @@ user1
 user2
 user3
 ```
+#
 
 ## Analyzer Tool
 
@@ -119,10 +120,6 @@ GitSentinel generates two types of outputs:
 ## Disclaimer
 
 This tool is intended for authorized use only. Ensure you have permission to scan any repositories that you do not own. Misuse of GitSentinel may violate GitHub’s terms of service and/or applicable laws.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
