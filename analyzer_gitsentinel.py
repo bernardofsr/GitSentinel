@@ -52,6 +52,8 @@ for report_file in report_files:
                 match = secret.get('Match', 'N/A')
                 secret_value = secret.get('Secret', 'N/A')
                 rule = secret.get('Description', 'N/A')
+                author = secret.get('Author', 'N/A')
+                email = secret.get('Email', 'N/A')
 
                 print("------------------------------------------------")
                 print(f"🔍 Secret #{i}")
@@ -62,6 +64,8 @@ for report_file in report_files:
                 print(f"Match       : {match}")
                 print(f"Secret      : {secret_value}")
                 print(f"Rule        : {rule}")
+                print(f"Author      : {author}")
+                print(f"Email      : {email}")
                 print("------------------------------------------------\n")
         else:
             print(f"⚠️ No valid secret entries found in '{report_file}'.")
