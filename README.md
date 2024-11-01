@@ -39,7 +39,7 @@ Ensure **Gitleaks** is installed and accessible:
 gitleaks version
 ```
 
-If Gitleaks is not installed, follow the instructions [here](https://github.com/gitleaks/gitleaks#install) to install it.
+If Gitleaks is not installed, follow the instructions [here](https://github.com/gitleaks/gitleaks?tab=readme-ov-file#installing) to install it.
 
 ## Usage
 
