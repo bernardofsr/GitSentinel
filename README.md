@@ -81,7 +81,7 @@ python analyzer_gitsentinel.py --report-dir reports
 Example Output:
 
 ```
-📄 **Report for 'user_repo_gitleaks_report.json': 1 secret found**
+📄 Report for 'user_repo_gitleaks_report.json': 1 secret found
 
 ------------------------------------------------
 🔍 Secret #1
