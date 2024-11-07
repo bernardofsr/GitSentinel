@@ -12,7 +12,7 @@ GitSentinel is a Python-based tool for scanning multiple users GitHub repositori
 - **Report Generation**: Outputs JSON reports with detailed information about any findings from Gitleaks.
 - **Analyzer Tool**: Analyzes JSON reports to summarize and display findings for easy review.
 
-## Requirements
+## Requirements & API Token
 
 - **Python 3.x**
 - **Gitleaks**: Ensure that [Gitleaks](https://github.com/gitleaks/gitleaks) is installed and accessible in your system’s PATH.
@@ -25,12 +25,6 @@ Clone this repository:
 ```bash
 git clone https://github.com/yourusername/gitsentinel.git
 cd gitsentinel
-```
-
-Install required Python packages:
-
-```bash
-pip install -r requirements.txt
 ```
 
 Ensure **Gitleaks** is installed and accessible:
