@@ -81,7 +81,7 @@ python analyzer_gitsentinel.py --report-dir reports
 Example Output:
 
 ```
-📄 **Report for 'user_repo_gitleaks_report.json': 3 secrets found**
+📄 **Report for 'user_repo_gitleaks_report.json': 1 secret found**
 
 ------------------------------------------------
 🔍 Secret #1
@@ -91,11 +91,13 @@ Commit      : abc123
 Line        : 42
 Secret      : 'example_secret_value'
 Rule        : 'Generic Credential'
+Author      : 'Author Name'
+Email       : 'Author Email'
 ------------------------------------------------
 
 === 📝 Overall Summary ===
 Total files processed     : 3
-Total secrets found       : 7
+Total secrets found       : 1
 ```
 
 ## Output
